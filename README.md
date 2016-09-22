@@ -6,3 +6,4 @@ Android library to download resource(Image,String,Json..) from server in paralle
 2. Can be extended and used to download response in any format
 3. Have in memory cache(configurable by the application) and evicts data which are not frequently access
 
+![alt tag](https://github.com/RamThirupathy/Rdownloader/blob/master/Rdownloader_uml.jpg)
