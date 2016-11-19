@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Case Study</string>
+
+    <string name="internet_connection_not_available">Internet Connection not available.</string>
+    <string name="ok">OK</string>
+    <string name="image_not_available">Image not available</string>
+    <string name="category">Category</string>
+    <string name="user">user</string>
+    <string name="created">created</string>
+    <string name="likes">likes</string>
+    <string name="pins">pins</string>
+    <string name="retry">Retry</string>
+    <string name="unable_to_reach_server_please_try_later">Unable to reach server. Please try later.</string>
+    <string name="pins_not_available">Pins not available.</string>
+</resources>

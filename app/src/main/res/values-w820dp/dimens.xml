@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textview_detail_margin">10dp</dimen>
+    <dimen name="alert_button_width">100dp</dimen>
+    <dimen name="alert_button_height">30dp</dimen>
+    <dimen name="dialog_height">100dp</dimen>
+    <dimen name="layout_pin_card_radius">10dp</dimen>
+    <dimen name="relative_layout_pin_padding">7dp</dimen>
+    <dimen name="linear_layout_pdt_padding">10dp</dimen>
+    <dimen name="font_title">15sp</dimen>
+    <dimen name="font_pdt1">14sp</dimen>
+    <dimen name="font_pdt2">12sp</dimen>
+    <dimen name="button_margin">7dp</dimen>
+    <dimen name="divider_height">2dp</dimen>
+    <dimen name="pin_fragment_item_margin">7dp</dimen>
+    <dimen name="pin_fragment_pin_margin">5dp</dimen>
+    <dimen name="pin_fragment_mini_margin">2dp</dimen>
+</resources>

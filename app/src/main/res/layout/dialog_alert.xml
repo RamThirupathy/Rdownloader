@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dialog_height"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/textview_detail_margin"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_title"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="@dimen/alert_button_width"
+        android:layout_height="@dimen/alert_button_height"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:text="@string/ok"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pin_fragment_item_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_pin"
+            android:layout_margin="@dimen/pin_fragment_mini_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_not_available"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_pins" />
+
+        <TextView
+            android:id="@+id/tv_pins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/pin_fragment_mini_margin"
+            android:isScrollContainer="false"
+            android:text="@string/pins"
+            android:textSize="@dimen/font_pdt2"
+            android:textColor="@color/colorListPressed"
+            />
+
+        <ImageView
+            android:id="@+id/iv_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_not_available"
+            android:scaleType="fitCenter"
+            android:layout_margin="@dimen/pin_fragment_mini_margin"
+            android:src="@drawable/ic_likes" />
+
+        <TextView
+            android:id="@+id/tv_pin_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:isScrollContainer="false"
+            android:text="@string/likes"
+            android:layout_margin="@dimen/pin_fragment_mini_margin"
+            android:textColor="@color/colorListPressed"
+            android:textSize="@dimen/font_pdt2" />
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>#bd081c-->
+    <color name="colorPrimary">#bd081c</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorListPressed">#E3E3E3</color>
+    <color name="colorListNormal">#ffffff</color>
+    <color name="colorGrayPrimScale0">#1F2225</color>
+    <color name="colorGrayPrimScale1">#2E3035</color>
+    <color name="colorGrayPrimScale2">#6D727D</color>
+    <color name="colorFragBackground">#F2F2F2</color>
+</resources>
