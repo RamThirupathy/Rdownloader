@@ -8,3 +8,26 @@ Android library to download resource(Image,String,Json..) from server in paralle
 
 # Class Diagram
 ![alt tag](https://github.com/RamThirupathy/Rdownloader/blob/master/Rdownloader_uml.jpg)
+
+###Steps
+Please refer the example project
+
+Request:
+```java
+   ImageRequest request = new ImageRequest(url, new ImageRequest.ImageResponseListener<Bitmap>(imageView) {
+
+            @Override
+            public void onError(RDowloaderError error) {
+
+            }
+        }, desiredWidth, desiredHeight, actualWidth, actualHeight);
+        mRDownloader.load(request);
+```
+
+Contributions
+-------
+
+Any contributions are welcome!
+
+Thanks
+-------
